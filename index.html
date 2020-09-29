@@ -5,8 +5,7 @@
     <title>Clock Reminder</title>
     <link rel="stylesheet" type="text/css" href="CSS.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script>
         function starTime() {
             var today = new Date();
@@ -18,11 +17,13 @@
             document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
             var t = setTimeout(starTime, 500);
         }
+
         function checkTime(i) {
-            if (i < 10) { i = "0" + 1 }; // add zero in front of numbers <10
+            if (i < 10) {
+                i = "0" + 1
+            }; // add zero in front of numbers <10
             return i;
         }
-
     </script>
 </head>
 
@@ -30,8 +31,8 @@
     <div class="main">
         <div id="clock"></div>
 
-        <h1>Good Night</h1>
-        <h6>Have a Nice Dream</h6>
+        <h1>" Mana Saia Tau Saia Kan Ikan "</h1>
+        <h6> - Mahasiswa No Laip -</h6>
 
         <div class="box">
             <li></li>
